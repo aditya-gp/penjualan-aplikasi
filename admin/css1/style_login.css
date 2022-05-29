@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+width: 350px;
+height: auto;
+margin:auto;
+background:url(../images/bg-index.png) no-repeat center center fixed;
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+color:#900;
+font-family: "Roboto Condensed", "Open Sans";
+}
+.wrap{
+width:350px;
+height: auto;
+float:left;
+background: #900;
+margin-top:170px;
+border-radius:5px;
+box-shadow: 0px 0px 5px #000;
+border:1px solid #ffc;
+}
+.wrap .head{
+width:330px;
+height: auto;
+padding: 10px;
+font-size: 19px;
+color:#FFF;
+float: left;
+font-weight: bold;
+text-align: center;
+border-bottom: 1px solid #FF9;
+}
+.wrap .form{
+width:330px;
+height: auto;
+padding:20px 10px;
+float: left;
+text-align: center;
+}
+.wrap .form form{
+margin:0;
+color:#555;
+font-weight: bold;
+}
+.wrap .form input[type="text"],.wrap .form input[type="password"]{
+width: 300px;
+height: auto;
+padding:10px;
+border:1px solid #ff9;
+text-align: center;
+background: #fff;
+box-shadow:inset 0px 3px 5px #cbccc4;
+border-radius:5px;
+}
+.wrap .form input[type="text"]:focus,.wrap .form input[type="password"]:focus{
+width: 300px;
+height: auto;
+padding:10px;
+border:1px solid #ff9;
+text-align: center;
+outline: none;
+background: #fff;
+}
+.wrap .form input[type="submit"]{
+background: -webkit-linear-gradient(top ,#fff 0%,#fff 100%);
+background: -moz-linear-gradient(center top ,#fff 0%,#fff 100%);
+border:1px solid #FF9;
+padding:5px 10px;
+border-radius: 3px;
+color:#900;
+font-weight: bold;
+margin-top: 5px;
+}
+.wrap .form input[type="submit"]:hover{
+color:#333;
+cursor: pointer;
+box-shadow: 0px 0px 7px #FF6;
+}
+.wrap .form input[type="reset"]{
+background: -webkit-linear-gradient(top ,#fff 0%,#fff 100%);
+background: -moz-linear-gradient(center top ,#fff 0%,#fff 100%);
+border:1px solid #FF9;
+padding:5px 10px;
+border-radius: 3px;
+color:#900;
+font-weight: bold;
+margin-top: 5px;
+}
+.wrap .form input[type="reset"]:hover{
+color:#333;
+cursor: pointer;
+box-shadow: 0px 0px 7px #FF6;
+}
+
+.wrap .footer{
+width:330px;
+height: auto;
+padding:8px 10px;
+font-size: 12px;
+color:#900;
+float: left;
+background: #ff9;
+text-align: center;
+border-top: 1px solid #F39;
+}
+
+
